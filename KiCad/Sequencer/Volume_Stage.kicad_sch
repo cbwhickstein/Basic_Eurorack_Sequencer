@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "cae619c9-f0a6-49d4-9d28-edc6f5bbe0ae")
 	(paper "A5")
+	(title_block
+		(title "CD4017 10-Step Sequencer")
+		(date "2026-03-06")
+		(rev "1.0")
+		(company "Christian Hickstein")
+		(comment 1 "Volume Stage")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
