@@ -1332,7 +1332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b08a296-3163-4d0e-9f46-9b72b6955566")
-		(property "Reference" "R48"
+		(property "Reference" "R10"
 			(at 99.06 46.99 90)
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 51.562 90)
 			(effects
 				(font
@@ -1376,15 +1376,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f45accf-6cc3-4785-aa53-a600e70755c0")
+			(uuid "8f2e157e-81ff-461e-88c9-fb2f85098ba7")
 		)
 		(pin "2"
-			(uuid "3e9064d8-cd94-47de-b3c4-7d67ca560997")
+			(uuid "ff294e65-1093-4cae-b4d9-e24a4eb42765")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R48")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1400,7 +1400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7d6cac-4ea3-4e61-ace2-dfd9c41506ff")
-		(property "Reference" "RV11"
+		(property "Reference" "RV12"
 			(at 151.13 88.8999 0)
 			(effects
 				(font
@@ -1418,7 +1418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -1446,18 +1446,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "b45fd646-bea5-4bf4-8fca-ac9ac7b579fb")
+			(uuid "876ab086-752e-44b3-9a7e-0cf2c330815c")
 		)
 		(pin "3"
-			(uuid "90b796e8-bad6-44e8-9f17-919a97553838")
+			(uuid "3cc1258b-e1e7-443f-a59e-dc429724313f")
 		)
 		(pin "1"
-			(uuid "31efcc8a-275e-4ff5-a4c5-977f8d3b988b")
+			(uuid "839072b0-61eb-45a5-8364-f1cab9612adb")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV11")
+					(reference "RV12")
 					(unit 1)
 				)
 			)
@@ -1473,7 +1473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c84967b-44cd-4222-8916-78b93027790c")
-		(property "Reference" "RV8"
+		(property "Reference" "RV9"
 			(at 104.14 88.8999 0)
 			(effects
 				(font
@@ -1491,7 +1491,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -1519,18 +1519,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "5c5dbbc6-8a9d-493a-a00d-59fd6f357e71")
+			(uuid "997f2190-9404-4fdc-b1f1-073bc5bf6695")
 		)
 		(pin "3"
-			(uuid "aad6e07b-9aea-4036-8a93-3ccb569d260c")
+			(uuid "bab96115-00cb-46e0-8fba-9a5983cfbb45")
 		)
 		(pin "1"
-			(uuid "274d413d-1c3d-4c45-8f1a-add2f893d2dd")
+			(uuid "e1ceeac0-a652-4f27-b20f-723789cfc42b")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV8")
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -1546,7 +1546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10874e96-4694-4002-88d7-52a254f621c9")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0144"
 			(at 153.67 43.18 0)
 			(effects
 				(font
@@ -1591,12 +1591,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "67c4599a-b301-4a4e-9f57-7b77a25634ac")
+			(uuid "6f1e27ab-5e23-49d1-9ecf-d06256ae87a9")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR050")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -1612,7 +1612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b4ad3e-fce5-4c55-96c4-0cb8636fccbd")
-		(property "Reference" "R46"
+		(property "Reference" "R8"
 			(at 49.53 107.95 90)
 			(effects
 				(font
@@ -1628,7 +1628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.53 112.522 90)
 			(effects
 				(font
@@ -1656,15 +1656,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc1e763a-ea35-49ef-ad66-04fa9b1e1621")
+			(uuid "31d2916f-bd99-4a9a-b657-6153cbb5e929")
 		)
 		(pin "2"
-			(uuid "83a400ac-67fc-424a-af8c-c540db798f45")
+			(uuid "94e8432f-1869-40c7-8c17-862fafb0f9bb")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R46")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1680,7 +1680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1330a4e1-e013-4465-9b67-39968e63030c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0137"
 			(at 106.68 74.93 0)
 			(effects
 				(font
@@ -1725,12 +1725,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ee5fb3f-d67f-4c76-9a35-3d137678a695")
+			(uuid "c4842a6b-d7e9-4b37-99ba-8a638b8f1d7f")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR042")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -1746,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "146fecd8-382c-417e-af15-589deeb9cc5a")
-		(property "Reference" "RV2"
+		(property "Reference" "RV3"
 			(at 54.61 26.6699 0)
 			(effects
 				(font
@@ -1764,7 +1764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 57.15 27.94 0)
 			(effects
 				(font
@@ -1792,18 +1792,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "ae98fdd8-5948-4e32-98cd-7fa00b7f6b83")
+			(uuid "41c22d19-1874-4be4-b780-8aeba710f714")
 		)
 		(pin "3"
-			(uuid "6ed2d752-e45a-4e48-8982-cd3a708e1fa7")
+			(uuid "3ac57bf5-1783-4d6b-8cd3-1f160c4292f7")
 		)
 		(pin "1"
-			(uuid "3e707308-365a-48bf-87a8-4e32a7159684")
+			(uuid "bb1054f9-6b7e-4bef-8ba7-6394424d35a7")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV2")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -1819,7 +1819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "180ed8f0-573a-4351-b692-dfc30ebc2767")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0146"
 			(at 57.15 74.93 0)
 			(effects
 				(font
@@ -1864,12 +1864,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2e09c05-689f-473c-ae32-7eea9ccf2948")
+			(uuid "e9c5caca-b158-4e79-8946-b7c3144c6141")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR030")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -1885,7 +1885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c321fdd-3fd0-458c-969e-ee4366d03b7f")
-		(property "Reference" "R49"
+		(property "Reference" "R11"
 			(at 99.06 77.47 90)
 			(effects
 				(font
@@ -1901,7 +1901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 82.042 90)
 			(effects
 				(font
@@ -1929,15 +1929,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffc283d8-76b8-4545-ba53-54f5e702c90c")
+			(uuid "308bc27e-cbf4-4191-a9ab-c90850eea0b2")
 		)
 		(pin "2"
-			(uuid "fbe375bc-341e-462c-99b3-09f2141ab14c")
+			(uuid "4e524425-1209-4e44-9d64-30f3ba150534")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R49")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1953,7 +1953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ea33fc-0071-4ef7-963b-98bc4c9ae202")
-		(property "Reference" "RV5"
+		(property "Reference" "RV6"
 			(at 54.61 119.3799 0)
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 57.15 120.65 0)
 			(effects
 				(font
@@ -1999,18 +1999,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "6e0aeb63-7c40-4a81-991c-2b8f08617336")
+			(uuid "f570e3b7-e620-4525-956d-a8cb8a718d6a")
 		)
 		(pin "3"
-			(uuid "2b78f256-205e-4823-b229-280c011cd2c7")
+			(uuid "ec70f9b2-b416-4694-9696-72a60a01224b")
 		)
 		(pin "1"
-			(uuid "1bcd4dd7-2933-4c5b-b5fa-5b09ff92edd8")
+			(uuid "f9defe72-0227-4abd-9756-499d8d6ccf45")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV5")
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -2026,7 +2026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d5d629f-f4a9-4159-a819-2fdd219f7f30")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0142"
 			(at 57.15 135.89 0)
 			(effects
 				(font
@@ -2071,12 +2071,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d231270-a6a6-4bb2-bd63-4ee8d1ca8a03")
+			(uuid "6fc5f7fd-b11f-4f9c-a2ff-26c5e8372793")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR040")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3474aa01-8030-41fe-802c-63af03cab334")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0143"
 			(at 106.68 43.18 0)
 			(effects
 				(font
@@ -2137,12 +2137,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a7c0fca-3ed3-45f5-99ab-ce60620f5c1a")
+			(uuid "a9de2353-fee4-47ba-8591-de06ba159d5f")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR041")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b0207a-cb17-4b7b-8d79-69ad0d38d0af")
-		(property "Reference" "R35"
+		(property "Reference" "R5"
 			(at 49.53 15.24 90)
 			(effects
 				(font
@@ -2174,7 +2174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.53 19.812 90)
 			(effects
 				(font
@@ -2202,15 +2202,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "51e28823-e723-4720-a675-fee7d4d71b49")
+			(uuid "a6b4d1b4-8b3c-4a1c-8198-62a4332257e9")
 		)
 		(pin "2"
-			(uuid "0f7d2dbf-0ea7-4142-abdf-79fa2892d933")
+			(uuid "81283a12-70c7-450e-b65e-3647c00f7b94")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R35")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2226,7 +2226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e504f2-c3b7-4dee-96bc-78a0810678b9")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0138"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -2271,12 +2271,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa3ac592-ab0e-4c9e-9eb1-eea627e4d6af")
+			(uuid "a2a496ce-9375-4670-94a5-af2260226763")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR051")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f6f658-09ad-4173-915d-65e2f8af87ac")
-		(property "Reference" "R37"
+		(property "Reference" "R7"
 			(at 49.53 77.47 90)
 			(effects
 				(font
@@ -2308,7 +2308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.53 82.042 90)
 			(effects
 				(font
@@ -2336,15 +2336,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3f18cac-9e3d-4f5c-960c-e6b2ff95e39a")
+			(uuid "f714c2d5-194d-4a7e-bf22-2dc809855ac3")
 		)
 		(pin "2"
-			(uuid "6e03fd78-8d72-4d5b-a28d-886aae5080cd")
+			(uuid "5264c2e6-b7a8-45dd-ba81-1bd647813268")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R37")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68c53b2c-4f64-45f2-bf93-54871f0a8128")
-		(property "Reference" "RV4"
+		(property "Reference" "RV5"
 			(at 54.61 88.8999 0)
 			(effects
 				(font
@@ -2378,7 +2378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 57.15 90.17 0)
 			(effects
 				(font
@@ -2406,18 +2406,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "5da09aeb-1530-47a2-80e8-aee02b55ea00")
+			(uuid "3b23ff09-9dd4-4f47-9fd3-2cab479c0619")
 		)
 		(pin "3"
-			(uuid "438ad6f6-7320-4c4e-b0c4-573a141bff5f")
+			(uuid "f36fef11-83c2-4961-9f0f-3e14e99c407d")
 		)
 		(pin "1"
-			(uuid "84ef951a-a165-4942-ac61-aab4c2719f81")
+			(uuid "3ee68cc1-ff2d-49a3-8aae-7660dbf73bdd")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV4")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -2433,7 +2433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69e11af9-cdc4-4b2a-9cfe-51e45dc246f4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0141"
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -2478,12 +2478,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "359121c6-9ab8-4acc-be93-d4ddabb18062")
+			(uuid "30de217c-9cae-4ca9-8ffc-1be6268d6def")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR031")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -2499,7 +2499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e56d953-fdc8-44e8-960f-f80dae01d66a")
-		(property "Reference" "RV6"
+		(property "Reference" "RV7"
 			(at 104.14 26.6699 0)
 			(effects
 				(font
@@ -2517,7 +2517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 106.68 27.94 0)
 			(effects
 				(font
@@ -2545,18 +2545,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "eb8ebd78-d0ff-4179-b4e0-17aea1e5fd00")
+			(uuid "19dab846-bc52-4dd0-baee-90123b51b17d")
 		)
 		(pin "3"
-			(uuid "9f931c7c-b78e-49a1-abda-1698542af6a0")
+			(uuid "483157d5-0b7b-4027-964c-493a979edd5b")
 		)
 		(pin "1"
-			(uuid "df67c2bd-6fa1-40bb-8ee7-04450ea43358")
+			(uuid "0bd093cb-a648-4839-bf4d-15acd6adf2d4")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV6")
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -2572,7 +2572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f5e3ae7-dd6a-433e-af0f-78b36efecdb4")
-		(property "Reference" "RV9"
+		(property "Reference" "RV10"
 			(at 151.13 26.6699 0)
 			(effects
 				(font
@@ -2590,7 +2590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 153.67 27.94 0)
 			(effects
 				(font
@@ -2618,18 +2618,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "a4d727a9-5e50-4aa0-810d-dc8814ef0977")
+			(uuid "e02def86-fdcd-4ba4-a4c6-21393c7427c6")
 		)
 		(pin "3"
-			(uuid "3fb6bbfc-bbde-4c67-a391-a3dcd8de3f65")
+			(uuid "9a9dc1e8-30d5-46d0-9aab-0435cd4e74cb")
 		)
 		(pin "1"
-			(uuid "5c1e566d-a2b3-4a48-93dd-899e573007df")
+			(uuid "ecfc35b8-2579-4a04-86a8-f2a9a026ee60")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV9")
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -2645,7 +2645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f6cd0ee-5e34-4e24-b44a-de85ec364aff")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0139"
 			(at 106.68 105.41 0)
 			(effects
 				(font
@@ -2690,12 +2690,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e07ed820-8b55-4517-9196-6459f4159306")
+			(uuid "ab6987b5-0142-4707-bebc-74199c58f85c")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR043")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7acfb7ae-bbfa-4fe8-9582-684013b099da")
-		(property "Reference" "R36"
+		(property "Reference" "R6"
 			(at 49.53 46.99 90)
 			(effects
 				(font
@@ -2727,7 +2727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.53 51.562 90)
 			(effects
 				(font
@@ -2755,15 +2755,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "41f8b94b-f4fe-4bfa-82cb-fa8b9c462191")
+			(uuid "311b7179-18a6-4e8f-a3b3-911ca27b32ee")
 		)
 		(pin "2"
-			(uuid "f62a6910-95fc-4ef8-8c88-e177023107e6")
+			(uuid "1dbbb59a-f606-4c5a-9428-c997621412a1")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R36")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2779,7 +2779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9032c762-2358-44e8-92ce-ecee2a87a0a5")
-		(property "Reference" "R56"
+		(property "Reference" "R12"
 			(at 146.05 15.24 90)
 			(effects
 				(font
@@ -2795,7 +2795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 146.05 19.812 90)
 			(effects
 				(font
@@ -2823,15 +2823,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce4caf01-fd67-4a87-9160-12546fad43cb")
+			(uuid "817768a4-029e-42a6-b05a-8acaf20b84a2")
 		)
 		(pin "2"
-			(uuid "cebc52e6-6957-4f41-af10-c79c42439142")
+			(uuid "a8851132-1132-49ad-8b99-5a643c6f3fe7")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R56")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2847,7 +2847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b5fe1b-2d58-456f-8146-8987499df44d")
-		(property "Reference" "R57"
+		(property "Reference" "R13"
 			(at 146.05 46.99 90)
 			(effects
 				(font
@@ -2863,7 +2863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 146.05 51.562 90)
 			(effects
 				(font
@@ -2891,15 +2891,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8b8e6e1-e093-4bca-9281-533b78a52f6a")
+			(uuid "2b5204a6-6580-44d5-a4a3-c66008325a55")
 		)
 		(pin "2"
-			(uuid "3e57a3b7-9d66-4862-8709-79132fa4c8ac")
+			(uuid "c5e044c6-5e3b-4a6d-8b87-cad354ce1b78")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R57")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2915,7 +2915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99667dd9-9fa2-4bc2-8a1e-372b90a8058b")
-		(property "Reference" "RV3"
+		(property "Reference" "RV4"
 			(at 54.61 58.4199 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 57.15 59.69 0)
 			(effects
 				(font
@@ -2961,18 +2961,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "b080ed7b-8a23-4890-a02e-510df2132158")
+			(uuid "eb4b6229-c4e0-44e1-b24c-136ba54394b3")
 		)
 		(pin "3"
-			(uuid "0e2fcf31-e30f-42bb-b774-b71462e4ca8e")
+			(uuid "2b288725-0831-4160-b3ce-f4dc052384b1")
 		)
 		(pin "1"
-			(uuid "98e5ecff-1f2f-4600-8bc9-380c1c69b381")
+			(uuid "d4215c55-b121-4c50-88b3-f21ae7c0e885")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV3")
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -2988,7 +2988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5ff2a92-40b2-4dd1-b3a3-7c00d17bc777")
-		(property "Reference" "RV7"
+		(property "Reference" "RV8"
 			(at 104.14 58.4199 0)
 			(effects
 				(font
@@ -3006,7 +3006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -3034,18 +3034,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "466ed951-c865-4759-a5d9-faf43e250a27")
+			(uuid "53cd5762-0375-42c9-aab4-e342d7b311ae")
 		)
 		(pin "3"
-			(uuid "b27028b2-84f5-4aee-a3b1-6bb905e01836")
+			(uuid "a9625b3d-7292-4a16-ac5b-6564d46dc0af")
 		)
 		(pin "1"
-			(uuid "d9c9e573-7248-4c75-a5de-e8beb4c10293")
+			(uuid "bd473053-074c-45b9-b609-bfc4f52895f1")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV7")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -3061,7 +3061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b54f1427-349d-466a-84fe-5b201ace0676")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0145"
 			(at 57.15 43.18 0)
 			(effects
 				(font
@@ -3106,12 +3106,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0afaeae2-446f-43c2-b091-2d4a965b09c1")
+			(uuid "9feef33a-c0b2-4d89-8d7a-a06d95dae6af")
 		)
 		(instances
 			(project ""
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR029")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d17281eb-d9a3-4a20-8ebf-713a6753719b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0140"
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -3172,12 +3172,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "19e212aa-17d7-4c0e-af8f-97466822740f")
+			(uuid "7dec2245-f5e4-491f-833f-a62eaf40afc4")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "#PWR052")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da31a13c-4f67-4206-a151-adc2117563a1")
-		(property "Reference" "R58"
+		(property "Reference" "R14"
 			(at 146.05 77.47 90)
 			(effects
 				(font
@@ -3209,7 +3209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 146.05 82.042 90)
 			(effects
 				(font
@@ -3237,15 +3237,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "33c52dfc-d35c-4e18-a639-4774e96fe605")
+			(uuid "ef768e80-2b3b-4252-b712-cce49b60f452")
 		)
 		(pin "2"
-			(uuid "a88e815c-603c-40ea-b7d1-759626edb5de")
+			(uuid "8e620f33-2195-4829-9da4-b2c701642d05")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R58")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df14289d-ef5e-45d1-b29f-9a8aaddc4707")
-		(property "Reference" "RV10"
+		(property "Reference" "RV11"
 			(at 151.13 58.4199 0)
 			(effects
 				(font
@@ -3279,7 +3279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_Footprints:Potis"
 			(at 153.67 59.69 0)
 			(effects
 				(font
@@ -3307,18 +3307,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "40ad7c3a-7a6c-460f-b1df-70ba75d3abcd")
+			(uuid "a5769da3-f388-45ff-9b67-37aeb509749d")
 		)
 		(pin "3"
-			(uuid "dc32a2ba-efdf-4080-8acb-a9af2439d584")
+			(uuid "e022200f-e5ae-4457-80b2-9e369a70f087")
 		)
 		(pin "1"
-			(uuid "f16a0afb-e462-4f82-8bd2-c47da4528c9a")
+			(uuid "0079ee2f-95c6-4c6a-b3e1-985ab87d2cf0")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "RV10")
+					(reference "RV11")
 					(unit 1)
 				)
 			)
@@ -3334,7 +3334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2661a55-a0ad-4ae2-b13d-ba65dd9c35b3")
-		(property "Reference" "R47"
+		(property "Reference" "R9"
 			(at 99.06 15.24 90)
 			(effects
 				(font
@@ -3350,7 +3350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 19.812 90)
 			(effects
 				(font
@@ -3378,15 +3378,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d1fd8a3-cdce-41f2-9a46-2f5cc3f9745c")
+			(uuid "7778cac3-9142-4339-b73f-9157ca999705")
 		)
 		(pin "2"
-			(uuid "d2d9e032-cf62-4635-bc72-4b580969e150")
+			(uuid "b0c4dec7-7e7a-4ea6-acf5-dfe4085f93d6")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/f29b9aff-0772-467d-b448-14099fa2b24e/0c890afb-e2ed-4b91-97db-b09b7123fb37"
-					(reference "R47")
+					(reference "R9")
 					(unit 1)
 				)
 			)

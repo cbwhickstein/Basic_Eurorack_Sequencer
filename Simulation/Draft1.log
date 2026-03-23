@@ -1,13 +1,15 @@
 LTspice 26.0.1 for Windows
 Circuit: Z:\home\christian\Projects\current\Sequencer\Simulation\Draft1.net
-Start Time: Fri Mar  6 20:43:08 2026
+Start Time: Thu Mar 19 16:10:10 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
 method = trap
+WARNING: Node nc_14 is floating.
+
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 3.450 seconds.
+Total elapsed time: 4.532 seconds.
 
 Files loaded:
 Z:\home\christian\Projects\current\Sequencer\Simulation\Draft1.net
